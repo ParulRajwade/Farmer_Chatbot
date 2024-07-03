@@ -1,0 +1,1630 @@
+{    
+  "intents": [
+      {
+        "tag": "choice-brands",
+        "patterns": [
+          "how many brands are there",
+          "what are some brands for this diseases",
+          "what are some companies for diseases",
+          "Good companies"
+        ],
+        "responses": [
+          "1. Agrofil Industries\n2. Alpha Crop Science Pvt Ltd\n3. BAYER\n4. Crystal Crop Protection Ltd\n5. National Pesticides and Chemicals\n6. Safex Chemicals (India) Limited\n7.Shree Organics\n8. Suryakiran chemicals\n9. Syngenta"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "choice-diseases",
+        "patterns": [
+          "can i know some diseases",
+          "diseases",
+          "info on diseases",
+          "Tell me types of diseases",
+          "what are some diseasees"
+        ],
+        "responses": 
+        [
+          "1. Anthracnose (Elsinoeampelina)\n2. Bacterial Leaf Spot(campestris OR Xanthomonas campestris)\n3. Downy Mildew OR Plasmoparaviticola\n4. Powdery Mildew OR Uncinula necator"
+        ],
+        "context": "About different types of diseases"
+      },
+      
+      {
+        "tag": "choice-pest",
+        "patterns": [
+          "can i know some pesticides", 
+          "I want to know something on pesticides",
+          "what are other pesticides"
+        ],
+        "responses": [
+          "1. Bordeaux mixture\n2. Bayleton\n3. Carbendazim\n4. Copper Oxychloride\n5. Fosetyl Al\n6. Mancozeb\n7. Metalaxyl\n8. Streptocycline\n9. Wettable Sulphur"
+        ]
+      },
+  
+      {
+        "tag": "choice-gov-policies",
+        "patterns": [
+          "What are the government policies", 
+          "Gov policies",
+          "Farming policies",
+          "Organic policies", 
+          "Sustainable policies",
+          "Some other government policies",
+          "Pradhan Mantri Krishi Yojana",
+          "Krishi Madat Yojana",
+          "Krishi Yojana",
+          "Policies for farmers",
+          "PM policies",
+          "Prime minister policies for farming"
+        ],
+        "responses": [
+          "1. Soil Health policies\n2. Insurance policies\n3. Market based policies\n4. Sustainable/Organic policies\n5. Income based policies"
+        ]
+      },
+     
+      {
+        "tag": "brands-for-bordeaux-mixture",
+        "patterns": [
+          "brands for pesticide bordeaux-mixture", 
+          "companies producing bordeaux-mixture"
+        ],
+        "responses": [
+          "1. Suryakiran chemicals"
+        ]
+      },
+      {
+        "tag": "brands-for-bayleton",
+        "patterns": [
+          "brands for pesticide Bayleton", 
+          "companies producing Bayleton"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals"
+        ]
+      },
+      {
+        "tag": "brands-for-carbendazim",
+        "patterns": [
+          "brands for pesticide carbendazim", 
+          "companies producing carbendazim"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals\n2. Crystal Crop Protection Ltd"
+        ]
+      },
+      {
+        "tag": "brands-for-copper-oxychloride",
+        "patterns": [
+          "brands for pesticide Copper Oxychloride", 
+          "companies producing Copper Oxychloride"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals\n2. Alpha Crop Science Pvt Ltd\n3. Syngenta"
+        ]
+      },
+      {
+        "tag": "brands-for-metalaxyl",
+        "patterns": [
+          "brands for pesticide Metalaxyl", 
+          "companies producing Metalaxyl"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals\n2. Safex Chemicals (India) Limited"
+        ]
+      },
+      {
+        "tag": "brands-for-fosetyl",
+        "patterns": [
+          "brands for pesticide fosetyl", 
+          "companies producing fosetyl"
+        ],
+        "responses": [
+          "1. BAYER"
+        ]
+      },
+      {
+        "tag": "brands-for-mancozeb",
+        "patterns": [
+          "brands for pesticide mancozeb", 
+          "companies producing mancozeb"
+        ],
+        "responses": [
+          "1. Shree Organics\n2. Agrofil Industries"
+        ]
+      },
+      {
+        "tag": "brands-for-streptocycline",
+        "patterns": [
+          "brands for pesticide streptocycline", 
+          "companies producing streptocycline"
+        ],
+        "responses": [
+          "1. Hindustan Antibiotic Agricultural Streptocycline from National Pesticides and Chemicals"
+        ]
+      },
+      {
+        "tag": "brands-for-wettable sulphur",
+        "patterns": [
+          "brands for pesticide wettable sulphur", 
+          "companies producing wettable sulphur"
+        ],
+        "responses": [
+          "1. National Pesticides and Chemicals"
+        ]
+      },
+  
+     
+      {
+        "tag": "soil-health-policies",
+        "patterns": [
+          "What are Soil Health Policies?",
+          "Government policies to keep soil full of nutrients",
+          "Government policies to keep soil health",
+          "Other soil health policies",
+          "Khet Yojana",
+          "Khet Sudhar yojana"
+        ],
+        "responses": [
+          "1. Paramparagat Krishi Vikas Yojana\n2. Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)\n3. Soil Health Cards"
+        ]
+      },
+      {
+        "tag": "paramparagat-krishi-vikas-yojana",
+        "patterns": [
+          "Paramparagat Krishi Vikas Yojana",
+          "Soil policy to keep soil fertile?",
+          "PKVY",
+          "Which policy is made to make soil fertile?"
+        ],
+        "responses": [
+          "Paramparagat Krishi Vikas Yojana is an elaborated component of Soil Health Management (SHM) of major project National Mission of Sustainable Agriculture (NMSA). Under PKVY Organic farming is promoted through adoption of organic village by cluster approach and PGS certification.\n\nThe main objective of Paramparagat Krishi Vikas Yojana 2022 is to increase the fertility of the soil. Through this scheme, financial assistance is provided for cluster building, capacity building, incentives, value addition and marketing. This scheme was started in the year 2015-16 to promote chemical free organic farming in cluster mode.\n\n"
+        ]
+      },
+      {
+        "tag": "financial-assistance-in-paramparagat-krishi-vikas-yojana",
+        "patterns": [
+          "money provided in PKVY",
+          "Financial assistance in Paramparagat Krishi Vikas Yojana",
+          "How much money is provided in Paramparagat Krishi Vikas Yojana",
+          "Money help in Paramparagat Krishi Vikas Yojana",
+          "Amount distribution of Paramparagat Krishi Vikas Yojana finance",
+          "For what all things finance is provided in Paramparagat Krishi Vikas Yojana"
+        ],
+        "responses": [
+          "Through this scheme, financial assistance of ₹ 50000 per hectare is provided for 3 years for cluster building, capacity building, incentives for other activities, value addition and marketing. Out of this ₹ 31000 per hectare for 3 years is provided for purchase of organic materials like organic fertilizers, pesticides, seeds etc. In addition ₹8800 per hectare is provided for 3 years for value addition and marketing. Financial assistance of ₹ 3000 per hectare for 3 years is also provided for cluster formation and capacity building. Including exposure visits and training of field personnel. This amount will be deposited in the account of farmers. Disbursed through Direct Benefit Transfer."
+        ]
+      },
+      {
+        "tag": "pradhan-mantri-krishi-sinchayee-yojana",
+        "patterns": [
+          "Pradhan Mantri Krishi Sinchayee Yojana",
+          "Pradhan Mantri Krishi Sinchayi Yojana",
+          "PMKSY",
+          "Sinchayee Yojana",
+          "Sinchayi Yojana",
+          "Hat Khet ko Pani",
+          "Jal Sanchay",
+          "Irrigation policies",
+          "Which policy is made to make soil wet?",
+          "Waterlogged soil policy",
+          "Which policy provide water to farm?"
+        ],
+        "responses": [
+          "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) has been formulated with the vision of extending the coverage of irrigation ‘Har Khet ko pani’ and improving water use efficiency ‘More crop per drop' in a focused manner with end to end solution on source creation, distribution, management, field application and extension activities."
+        ]
+      },
+      {
+        "tag": "activities-in-pradhan-mantri-krishi-sinchayee-yojana",
+        "patterns": [
+          "Activities in PMKSY",
+          "Activities in Pradhan Mantri Krishi Sinchayee Yojana",
+          "Activities in Pradhan Mantri Krishi Sinchayi Yojana",
+          "How Pradhan Mantri Krishi Sinchayi Yojana works?",
+          "What is done in Pradhan Mantri Krishi Sinchayi Yojana?"
+        ],
+        "responses": [
+          "1. Creation of new water sources through Minor Irrigation (both surface and ground water) Repair, restoration and renovation of water bodies; strengthening carrying capacity of traditional water sources, construction rain water harvesting structures (Jal Sanchay)\n2. Command area development, strengthening and creation of distribution network from source to the farm;\n3. Improvement in water management and distribution system for water bodies to take advantage of the available source which is not tapped to its fullest capacity (deriving benefits from low hanging fruits). At least 10% of the command area to be covered under micro/precision irrigation.\n4. Diversion of water from source of different location where it is plenty to nearby water scarce areas, lift irrigation from water bodies/rivers at lower elevation to supplement requirements beyond IWMP and MGNREGS irrespective of irrigation command.\n5. Creation and rejuvenation of traditional water storage systems like Jal Mandir (Gujarat); Khatri, Kuhl (H.P.); Zabo (Nagaland); Eri, Ooranis (T.N.); Dongs (Assam); Katas, Bandhas (Odisha and M.P.) etc. at feasible locations."
+        ]
+      },
+      {
+        "tag": "soil-health-cards",
+        "patterns": [
+          "Soil Health Cards"
+        ],
+        "responses": [
+          "The Soil Health Cards gives information to farmers on nutrient status of their soil along with recommendation on appropriate dosage of nutrients to be applied for improving soil health and its fertility."
+        ]
+      },
+  
+      {
+        "tag": "market-policies",
+        "patterns": [
+          "Market-based policies",
+          "Market policies for farmers",
+          "Market policies"
+        ],
+        "responses": [
+          "1. Terminal Markets Complex\n2. National Agriculture Market (eNAM)"
+        ]
+      },
+      {
+        "tag": "terminal-markets-complex",
+        "patterns": [
+          "Terminal Markets Complex",
+          "TMC"
+        ],
+        "responses": [
+          "Description of Terminal Markets Complex: Link farmers to markets by shortening supply chain of perishables and enhance their efficiency and increase in farmers income"
+        ]
+      },
+      {
+        "tag": "national-agriculture-market",
+        "patterns": [
+          "National Agriculture Market",
+          "eNAM"
+        ],
+        "responses": [
+          "National Agriculture Market (eNAM) is a pan-India electronic trading portal that networks the existing APMC mandis to create a unified national market for agricultural commodities."
+        ]
+      },
+  
+      {
+        "tag": "insurance-policies",
+        "patterns": [
+          "Insurance-based policies",
+          "Insurance policies for farmers",
+          "Insurance policies",
+          "Bima Suvidha"
+        ],
+        "responses": [
+          "1. Pradhan Mantri Fasal Bima Yojana\n2. IFFCO-TOKIO General Insurance Kisan Suvidha Bima\n3. Draksha Bima (Grape Insurance)"
+        ]
+      },
+  
+      {
+        "tag": "sustainable-and-organic-farming-policies",
+        "patterns": [
+          "What are Sustainable and organic farming policies?",
+          "Sustainable policies",
+          "Organic policies",
+          "Sustainable/Organic farming policies"
+        ],
+        "responses": [
+          "1. National Mission For Sustainable Agriculture (NMSA)\n2. Pradhan Mantri Krishi Sinchai Yojana (PMKSY)\n3. Paramparagat Krishi Vikas Yojana (PKVY)\n4. Rainfed Area Development Programme (RADP)"
+        ]
+      },
+      {
+        "tag": "national-mission-for-sustainable-agriculture",
+        "patterns": [
+          "National Mission For Sustainable Agriculture?",
+          "NMSA"
+        ],
+        "responses": [
+          "National Mission For Sustainable Agriculture (NMSA) - This scheme provides insurance cover for all stages of the crop cycle including post-harvest risks in specified instances, with low premium contribution by farmers. NMSA will cater to key dimensions of ‘Water use efficiency’, ‘Nutrient Management’ and ‘Livelihood diversification’ through adoption of sustainable development pathway by progressively shifting to environmental friendly technologies, adoption of energy efficient equipments, conservation of natural resources, integrated farming, etc."
+        ]
+      },
+      {
+        "tag": "Rainfed-Area-Development-Programme",
+        "patterns": [
+          "Rainfed Area Development Programme",
+          "RADP"
+        ],
+        "responses": [
+          "The aim was to improve quality of life of farmers’ especially, small & marginal farmers by giving a complete package of activities to maximize farm returns. It also help in increasing agricultural productivity of rainfed areas in a sustainable way by adopting suitable farming system based approaches. It minimises the adverse impact of possible crop failure because of drought, flood or un-even rainfall distribution through diversified & composite farming system."
+        ]
+      },
+  
+      {
+        "tag": "Income-based-policies",
+        "patterns": [
+          "Income based policies",
+          "policies on farming income"
+        ],
+        "responses": [
+          "1. PM-Kisan Scheme\n2. Pradhan Mantri Kisan Maandhan yojana\n"
+        ]
+      },
+      {
+        "tag": "Income-based-policies",
+        "patterns": [
+          "PM-Kisan Scheme",
+          "Prime minister Kisan Scheme",
+          "Pradhan Mantri Kisan Scheme"
+        ],
+        "responses": [
+          "Pradhan Mantri Kisan Scheme: Initiative of the Government wherein 120 million small and marginal farmers of India with less than two hectares of landholding will get up to Rs. 6,000 per year as minimum income support."
+        ]
+      },
+      {
+        "tag": "PM-Kisan-Maandhan-Scheme",
+        "patterns": [
+          "PM Kisan Maandhan Scheme",
+          "Maandhan scheme",
+          "Kisan Maandhan"
+        ],
+        "responses": [
+          "Under PM Kisan Maandhan scheme about 5 crore marginalised farmers will get a minimum pension of Rs 3000 / month on attaining the age of 60. Those who fall in the age group of 18 - 40 years will be eligible to apply for the scheme. Under this scheme, the farmers will be required to make a monthly contribution of Rs 55 to 200, depending on their age of entry, in the Pension Fund till they reach the retirement date, 60 years. The Government will make an equal contribution of the same amount in the pension fund for the cultivators."
+        ]
+      },
+  
+  
+      {
+        "tag": "Loan-policies",
+        "patterns": [
+          "Credit Card Policies",
+          "Loan policies"
+        ],
+        "responses": [
+          "1. Kisan Credit Card (KCC) scheme"
+        ]
+      },
+      {
+        "tag": "Kisan-Credit-Card",
+        "patterns": [
+          "Kisan Credit Card",
+          "KCC",
+          "Credit cards given by government",
+          "Which companies offer credit card to farmers?"
+        ],
+        "responses": [
+          "Under Kisan Credit Card (KCC) scheme, farmers are given short-term loans to purchase equipment & for their other expenses as well. There are many banks that offer KCC including SBI, HDFC, ICICI, Axis."
+        ]
+      },
+  
+      
+      {
+        "tag": "disease-anthracnose",
+        "patterns": [
+          "Anthracnose",
+          "any thing on Anthracnose",
+          "describe Anthracnose",
+          "I want to know about Anthracnose",
+          "what is Anthracnose",
+          "what is Elsinoeampelina"
+        ],
+        "responses": [
+          "<img src='https://arborjet.com/wp-content/uploads/2019/03/Anthracnose46.jpg'> Anthracnose or Elsinoeampelina: Small light brown or grayish black lesions develop on tender shoots, young leaves, flowers and young berries <a href=\"https://www.britannica.com/science/anthracnose\" target=\"_blank\">more detail..</a>"
+        ]
+      },
+  
+      {
+        "tag": "pesticides-disease-anthracnose",
+        "patterns": [
+          "How to prevent Anthracnose",
+          "solution on Anthracnose",
+          "Pesticides to prevent Anthracnose",
+          "Some pesticides on Anthracnose"
+        ],
+        "responses": [
+          "1. Wettable Sulphur (1.5kg/200 litres of water)\n2. Bayleton (1g/litre of water)"
+        ]
+      },
+  
+      {
+        "tag": "disease-bacterial-leaf-spot",
+        "patterns": [
+          "any thing on Bacterial Leaf Spot",
+          "Bacterial Leaf Spot",
+          "describe Bacterial Leaf Spot",
+          "I want to know about Bacterial Leaf Spot",
+          "what is Xanthomonas campestris"
+        ],
+        "responses": [
+          "Bacterial Leaf Spot(Xanthomonas campestris): The symptoms appear as minute water soaked spots on the lower surface of the leaves along the main and lateral veins. Later on these spots coalesce and form larger patches. Brownish black lesions are formed on  the berries, which later become small and shriveled."
+        ]
+      },
+      {
+        "tag": "disease-downy-mildew",
+        "patterns": [
+          "any thing on downy mildew",
+          "describe Downy mildew",
+          "Downy mildew",
+          "I want to know about Downy mildew",
+          "what is Plasmoparaviticola"
+        ],
+        "responses": [
+          "<img src='https://soybeanresearchinfo.com/wp-content/uploads/2019/03/downy-mildew-on-soybean-Adam-Sisson-P1040070.jpg'>\nPlasmoparaviticola or Downy mildew on a plant is marked by a whitish down composed of spore-forming hyphae, penetrating more deeply into the plant than powdery mildew. "
+        ]
+      },
+      {
+        "tag": "Symptoms-disease-downy-mildew",
+        "patterns": [
+          "symptoms of downy mildew",
+          "how to know my plant is affected with Downy mildew?"
+        ],
+        "responses": [
+          "Initial symptoms of downy mildew appear as light yellow spots on the upper surface of young mature leaves with corresponding white spots on the lowerside. Affected portions of the leaves turn brown and cannot support the bunch development due to reduced photosynthetic activity."
+        ]
+      },
+      {
+        "tag": "Pesticides-disease-downy-mildew",
+        "patterns": [
+          "how to prevent plant from downy mildew?",
+          "Pesticides for Downy mildew"
+        ],
+        "responses": [
+          "1. Copper Oxychloride (0.2%)\n2. Bordeauxmixture(1%)\n3. Mancozeb(0.2%)\n4. Fosetyl Al(0.2%)"
+        ]
+      },
+  
+      {
+        "tag": "disease-powder-mildew",
+        "patterns": [
+          "any thing on powder mildew",
+          "describe Powder mildew",
+          "I want to know about Powder mildew",
+          "Powder mildew",
+          "Uncinula necator",
+          "what is powder mildew"
+        ],
+        "responses": [
+          "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Oidio_Plantas.jpg/1024px-Oidio_Plantas.jpg'> \nPowder Mildew(Uncinula necator) is a worldwide fungal disease that causes a white powdery coating on the surface of leaves, buds, young shoots, fruits, and flowers. \n<a href=\"https://en.wikipedia.org/wiki/Powdery_mildew\" target=\"_blank\">more detail..</a>"
+        ]
+      },
+      
+  
+      {
+        "tag": "General_About_You",
+        "patterns": [
+          "About you", 
+          "Describe your self", 
+          "Do you have a name?", 
+          "Do you know who you are?", 
+          "How can I configure you?", 
+          "How do you function?", 
+          "How old are you?", 
+          "Introduce your self",
+          "Let us talk about you", 
+          "Tell me about your life", 
+          "Tell me something about yourself", 
+          "What languages do you speak?", 
+          "What should I know about you?", 
+          "What's your name?", 
+          "Where are you from?", 
+          "Where were you born?", 
+          "Who are you?", 
+          "Why are you here?"
+        ],
+        "responses": [
+          "I am a FarmaBot which helps you to resolve and give general information regarding your farming practices and remedies query"
+        ],
+        "context": "Request generic personal attributes."
+      },
+      {
+        "tag": "General_Agent_Capabilities",
+        "patterns": [
+          "Can you please give me a list of the types of things you can help me with?",  
+          "Can you tell me what services you are able to help me with?",  
+          "Do you have a list of things I can talk to you about?", 
+          "Help now", 
+          "Hi, what do you do?", 
+           "How can I use you?", 
+           "How can you help me?", 
+           "How can you solve my problems?", 
+           "How do I use you?", 
+           "I'd like to know what type of questions you can answer for me.", 
+           "I do not know what to ask", 
+           "Is there anything you can help me with?",
+           "Tell me about what kind of things you do?", 
+           "Tell me something", 
+           "What are my options?", 
+           "What are my options that you can help with?", 
+           "What are you able to deal with?", 
+           "What are you able to understand?", 
+           "What are you capable of?", 
+           "What are you good at?", 
+           "What are your skills?", 
+           "What are you used for?", 
+           "What can I ask you to do?", 
+           "What do you do?", 
+           "What do you handle?", 
+           "What else can you help me with?", 
+           "What features are in here?", 
+           "What is this 4?", 
+           "What kinds of things can you do?", 
+           "Where can I find the frequently asked questions?"
+        ],
+        "responses": [
+          "You can ask me any doubts related to:\n1. Government Policies\n2. Plants Diseases\n3. Pesticides\n 4. Pesticides/Chemicals brands"
+        ],
+        "context": "Request capabilities of the bot."
+      },
+      {
+        "tag": "General_Connect_to_Agent",
+        "patterns": [ 
+          "Agent help", 
+           "A real agent, please.", 
+           "Call agent", 
+           "Can I connect to an agent?", 
+           "Can I speak to a human please?", 
+           "Can I speak to a live person?", 
+           "Can I speak to an advisor?", 
+           "Can I speak with somebody?", 
+           "Can I talk to someone?", 
+           "Can you assist me to connect to an agent?", 
+           "Can you connect me with a real person?", 
+           "Connect me to a live operator please.", 
+           "Contact person", 
+           "Could you please transfer me to your master?", 
+           "Customer service representative please.",
+           "Do not want a robot?", 
+           "Hi can you transfer me", 
+           "How can I skip the recorded menu and go straight to a live person?", 
+           "I don't want to talk to a bot.", 
+           "I don't want to talk to you", 
+           "I need to speak to a representative. How would I go about doing so?", 
+           "Is there anyone there I can actually talk to for real?", 
+           "I want agent", 
+           "I want a manager", 
+           "I want an agent to help me", 
+           "I want to talk to a person", 
+           "I would like to speak to a human", 
+           "I would like to speak to someone", 
+           "Need help from human", 
+           "Operator please", 
+           "Please assist me to get to an agent", 
+           "Please connect me to a live agent", 
+           "Please let me talk to a human being.", 
+           "Pls connect", 
+           "Put me through to someone", 
+           "Send me to an agent", 
+           "Where is the closest agent?", 
+           "Yes, take me to a real person"
+        ],
+        "responses": [
+          "Following are some helpline number and officials sites: <a href=''>Kisan call center</a> "
+        ],
+        "context": "Request a human agent."
+      },
+      {
+        "tag": "General_Ending",
+        "patterns": [ 
+          "Bye bye", 
+           "Bye now", 
+           "Catch you later", 
+           "Cya later", 
+           "Ending this session", 
+           "End trial", 
+           "Finished now, good bye", 
+           "Get lost", 
+           "Go away", 
+           "Going now", 
+           "Good. bye.", 
+           "Goodbye", 
+           "Go off", 
+           "Have a nice day?", 
+           "Hey bot go away", 
+           "I am leaving", 
+           "I am out of here", 
+           "I d like to stop doing this", 
+           "I have got to go", 
+           "I'm done", 
+           "Im done", 
+           "Im good thank you", 
+           "I'm leaving now", 
+           "It was nice chatting with you", 
+           "I want to quit", 
+           "Ok goodbye", 
+           "See you", 
+           "See you later", 
+           "Shut up", 
+           "Stop doing this", 
+           "Stop talking to me", 
+           "Thanks, bye!", 
+           "Thanks very much, bye!", 
+           "Thank you for your time", 
+           "That is all", 
+           "That's everything", 
+           "Time to go" 
+        ],
+        "responses": [
+          "Good to see you."
+        ],
+        "context": "End the conversation."
+      },
+      {
+        "tag": "General_Greetings",
+        "patterns": [ 
+          "Good day", 
+           "Good evening", 
+           "Good morning", 
+           "Good to see you", 
+           "Greetings", 
+           "Have you been well?", 
+           "Hello", 
+           "Hello Agent", 
+           "Hello I am looking for some help here", 
+           "Hey how are you doing", 
+           "Hey there", 
+           "Hey there all", 
+           "Hey twin", 
+           "Hey you", 
+           "Hi advisor", 
+           "Hi there", 
+           "How are things going?", 
+           "How are you today?", 
+           "How have you been?", 
+           "How is it going?", 
+           "How r u?", 
+           "Looking good eve", 
+           "Ok take me back", 
+           "What's new?", 
+           "What's up?", 
+           "Who is this?", 
+           "You there" 
+         ],
+        "responses": [
+          "Hello,\n how can i help you?"
+        ],
+        "context": "Greet the bot."
+      },
+      {
+        "tag": "General_Human_or_Bot",
+        "patterns": [ 
+          "Am I chatting with a human?", 
+           "Am I talking to a Bot?", 
+           "Am I talking to a person or am I talking to an AI?", 
+           "Am I talking to Watson?", 
+           "Are you a human or a bot?", 
+           "Are you a robot?", 
+           "Are you even real?", 
+           "Are you human?", 
+           "Are you real?", 
+           "How can you prove you are a human?", 
+           "Is this a computer?", 
+           "Tell me, are you a human or no?"
+        ],
+        "responses": [
+          "I am a Bot made by humans. I am here to assist you in farming. How can I help you?"
+        ],
+        "context": "Ask if speaking to a human or a bot."
+      },
+      {
+        "tag": "General_Negative_Feedback",
+        "patterns": [ 
+          "Do not like you?", 
+           "Everyone hates you", 
+           "Hate you", 
+           "I do not like you", 
+           "I hate this!", 
+           "I hate you", 
+           "It is annoying", 
+           "Quit annoying me", 
+           "Robots are boring", 
+           "Robots are stupid", 
+           "Stupid", 
+           "Why are you so annoying?", 
+           "Why are you stupid?", 
+           "You are having delusions", 
+           "You are on my nerves", 
+           "You are very frustrating", 
+           "You do not seem smart", 
+           "You're really frustrating", 
+           "You're really irritating", 
+           "You're too stupid"
+        ],
+        "responses": [
+          "Sorry to see frustrated, you can ask me another question or modify your question."
+        ],
+        "context": "Express unfavorable feedback."
+      },
+      {
+        "tag": "General_Positive_Feedback",
+        "patterns": [ 
+          "Brilliant!", 
+           "Can't believe you are that good", 
+           "How cool is this?", 
+           "I like what you did there! :)", 
+           "I'm looking forward to working with you again! :)", 
+           "Love your work", 
+           "Ok thank you", 
+           "Thank you", 
+           "This is good", 
+           "This is great", 
+           "This is so cool", 
+           "You are awesome", 
+           "You are great", 
+           "You are the best", 
+           "You are wonderful", 
+           "You gave me exactly what I need!", 
+           "You're a genius!", 
+           "You the man", 
+           "You've been so helpful :)"
+        ],
+        "responses": [
+          "Thank you "
+        ],
+        "context": "Express positive sentiment or gratitude."
+      },
+      {
+        "tag": "more",
+        "patterns": [ 
+          "can i get something more", 
+           "i need to know more", 
+           "I need to more options"
+        ],
+        "responses": [
+          "May I know what you want to know more?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "choice-brands",
+        "patterns": [
+          "ત્યાં કેટલી બ્રાન્ડ્સ છે",
+          "આ રોગો માટે કેટલીક બ્રાન્ડ્સ શું છે",
+          "રોગો માટે કેટલીક કંપનીઓ કેટલી છે",
+          "સારી કંપનીઓ"
+        ],
+        "responses": [
+          "2. એગ્રોફિલ ઇન્ડસ્ટ્રીઝ\n2. આલ્ફા ક્રોપ સાયન્સ પ્રાઇવેટ લિમિટેડ\n3. BAYER\n4. ક્રિસ્ટલ ક્રોપ પ્રોટેક્શન લિમિટેડ\n5. રાષ્ટ્રીય જંતુનાશકો અને રસાયણો\n6. સેફેક્સ કેમિકલ્સ (ઈન્ડિયા) લિમિટેડ\n7.શ્રી ઓર્ગેનિક્સ\n8. સૂર્યકિરણ રસાયણો\n9. સિંજેન્ટા"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "choice-diseases",
+        "patterns": [
+          "શું હું અમુક રોગો જાણી શકું?",
+          "રોગો",
+          "રોગો વિશે માહિતી",
+          "મને રોગોના પ્રકારો જણાવો",
+          "અમુક રોગો ક્યા છે"
+        ],
+        "responses": [
+          "2. એન્થ્રેકનોઝ (એલ્સિનોએમ્પેલિના)\n2. બેક્ટેરિયલ લીફ સ્પોટ(કેમ્પેસ્ટ્રીસ અથવા ઝેન્થોમોનાસ કેમ્પેસ્ટ્રીસ)\n3. ડાઉની માઇલ્ડ્યુ અથવા પ્લાઝમોપારાવિટીકોલા\n4. પાવડરી માઇલ્ડ્યુ અથવા અનસીનુલા નેકેટર"
+        ],
+        "context": "About different types of diseases"
+      },
+      {
+        "tag": "choice-pest",
+        "patterns": [
+          "શું હું અમુક જંતુનાશકો જાણી શકું?",
+          "મારે જંતુનાશકો વિશે કંઈક જાણવું છે",
+          "અન્ય જંતુનાશકો ક્યા છે"
+        ],
+        "responses": [
+          "2. બોર્ડેક્સ મિશ્રણ\n2. બેલેટન\n3. કાર્બેન્ડાઝીમ\n4. કોપર ઓક્સીક્લોરાઇડ\n5. Fosetyl Al\n6. મેન્કોઝેબ\n7. મેટાલેક્સિલ\n8. સ્ટ્રેપ્ટોસાયક્લાઇન\n9. વેટેબલ સલ્ફર"
+        ]
+      },
+      {
+        "tag": "choice-gov-policies",
+        "patterns": [
+          "શું છે સરકારની નીતિઓ",
+          "સરકારની નીતિઓ",
+          "ખેતીની નીતિઓ",
+          "ઓર્ગેનિક નીતિઓ",
+          "ટકાઉ નીતિઓ",
+          "કેટલીક અન્ય સરકારી નીતિઓ",
+          "પ્રધાનમંત્રી કૃષિ યોજના",
+          "કૃષિ સહાય યોજના",
+          "કૃષિ યોજના",
+          "ખેડૂતો માટે નીતિઓ",
+          "પીએમ નીતિઓ",
+          "ખેતી માટે વડાપ્રધાનની નીતિઓ"
+        ],
+        "responses": [
+          "2. માટી આરોગ્ય નીતિઓ\n2. વીમા પૉલિસી\n3. બજાર આધારિત નીતિઓ\n4. ટકાઉ/ઓર્ગેનિક નીતિઓ\n5. આવક આધારિત નીતિઓ"
+        ]
+      },
+      {
+        "tag": "brands-for-bordeaux-mixture",
+        "patterns": [
+          "જંતુનાશક બોર્ડેક્સ-મિશ્રણ માટે બ્રાન્ડ્સ",
+          "બોર્ડેક્સ-મિશ્રણનું ઉત્પાદન કરતી કંપનીઓ"
+        ],
+        "responses": [
+          "2. સૂર્યકિરણ રસાયણો"
+        ]
+      },
+      {
+        "tag": "brands-for-bayleton",
+        "patterns": [
+          "જંતુનાશક બેલેટન માટે બ્રાન્ડ્સ",
+          "બેલેટનનું ઉત્પાદન કરતી કંપનીઓ"
+        ],
+        "responses": [
+          "2. રાષ્ટ્રીય જંતુનાશકો અને રસાયણો"
+        ]
+      },
+      {
+        "tag": "brands-for-carbendazim",
+        "patterns": [
+          "જંતુનાશક કાર્બેન્ડાઝીમ માટે બ્રાન્ડ્સ",
+          "કાર્બેન્ડાઝીમનું ઉત્પાદન કરતી કંપનીઓ"
+        ],
+        "responses": [
+          "2. રાષ્ટ્રીય જંતુનાશકો અને રસાયણો\n2. ક્રિસ્ટલ ક્રોપ પ્રોટેક્શન લિ."
+        ]
+      },
+      {
+        "tag": "brands-for-copper-oxychloride",
+        "patterns": [
+          "જંતુનાશક કોપર ઓક્સીક્લોરાઇડ માટે બ્રાન્ડ્સ",
+          "કોપર ઓક્સીક્લોરાઇડનું ઉત્પાદન કરતી કંપનીઓ"
+        ],
+        "responses": [
+          "2. રાષ્ટ્રીય જંતુનાશકો અને રસાયણો\n2. આલ્ફા ક્રોપ સાયન્સ પ્રાઇવેટ લિમિટેડ\n3. સિંજેન્ટા"
+        ]
+      },
+      {
+        "tag": "brands-for-metalaxyl",
+        "patterns": [
+          "જંતુનાશક મેટલેક્સિલ માટે બ્રાન્ડ્સ",
+          "મેટલેક્સિલનું ઉત્પાદન કરતી કંપનીઓ"
+        ],
+        "responses": [
+          "2. રાષ્ટ્રીય જંતુનાશકો અને રસાયણો\n2. સેફેક્સ કેમિકલ્સ (ઈન્ડિયા) લિમિટેડ"
+        ]
+      },
+      {
+        "tag": "brands-for-fosetyl",
+        "patterns": [
+          "જંતુનાશક ફોસેટાઇલ માટે બ્રાન્ડ્સ",
+          "ફોસેટાઇલનું ઉત્પાદન કરતી કંપનીઓ"
+        ],
+        "responses": [
+          "2. બેયર"
+        ]
+      },
+      {
+        "tag": "brands-for-mancozeb",
+        "patterns": [
+          "જંતુનાશક મેન્કોઝેબ માટે બ્રાન્ડ્સ",
+          "મેન્કોઝેબનું ઉત્પાદન કરતી કંપનીઓ"
+        ],
+        "responses": [
+          "2. શ્રી ઓર્ગેનિક્સ\n2. એગ્રોફિલ ઇન્ડસ્ટ્રીઝ"
+        ]
+      },
+      {
+        "tag": "brands-for-streptocycline",
+        "patterns": [
+          "જંતુનાશક સ્ટ્રેપ્ટોસાયક્લાઇન માટે બ્રાન્ડ્સ",
+          "સ્ટ્રેપ્ટોસાયક્લાઇનનું ઉત્પાદન કરતી કંપનીઓ"
+        ],
+        "responses": [
+          "2. રાષ્ટ્રીય જંતુનાશકો અને રસાયણોમાંથી હિન્દુસ્તાન એન્ટિબાયોટિક કૃષિ સ્ટ્રેપ્ટોસાયક્લાઇન"
+        ]
+      },
+      {
+        "tag": "brands-for-wettable sulphur",
+        "patterns": [
+          "જંતુનાશક વેટેબલ સલ્ફર માટે બ્રાન્ડ્સ",
+          "વેટેબલ સલ્ફરનું ઉત્પાદન કરતી કંપનીઓ"
+        ],
+        "responses": [
+          "2. રાષ્ટ્રીય જંતુનાશકો અને રસાયણો"
+        ]
+      },
+      {
+        "tag": "soil-health-policies",
+        "patterns": [
+          "માટી આરોગ્ય નીતિઓ શું છે?",
+          "જમીનને પોષક તત્વોથી ભરપૂર રાખવા સરકારની નીતિઓ",
+          "જમીનની તંદુરસ્તી જાળવવા માટે સરકારની નીતિઓ",
+          "અન્ય માટી આરોગ્ય નીતિઓ",
+          "ખેત યોજના",
+          "ખેત સુધર યોજના"
+        ],
+        "responses": [
+          "2. પરમપરાગત કૃષિ વિકાસ યોજના 2n2. પ્રધાનમંત્રી કૃષિ સિંચાઈ યોજના (PMKSY) n3. સોઇલ હેલ્થ કાર્ડ્સ"
+        ]
+      },
+      {
+        "tag": "paramparagat-krishi-vikas-yojana",
+        "patterns": [
+          "પરમપરાગત કૃષિ વિકાસ યોજના",
+          "જમીનને ફળદ્રુપ રાખવા માટે જમીનની નીતિ?",
+          "પીકેવીવાય",
+          "જમીનને ફળદ્રુપ બનાવવા માટે કઈ નીતિ બનાવવામાં આવે છે?"
+        ],
+        "responses": [
+          "પરમપરાગત કૃષિ વિકાસ યોજના એ મુખ્ય પ્રોજેક્ટ નેશનલ મિશન ઓફ સસ્ટેનેબલ એગ્રીકલ્ચર (NMSA) ના સોઇલ હેલ્થ મેનેજમેન્ટ (SHM) નો વિસ્તૃત ઘટક છે. PKVY હેઠળ સજીવ ખેતીને ક્લસ્ટર અભિગમ અને PGS પ્રમાણપત્ર દ્વારા ઓર્ગેનિક ગામ અપનાવીને પ્રોત્સાહન આપવામાં આવે છે.\n\nપરમપરાગત કૃષિ વિકાસ યોજના 2023નો મુખ્ય ઉદ્દેશ જમીનની ફળદ્રુપતા વધારવાનો છે. આ યોજના દ્વારા ક્લસ્ટર નિર્માણ, ક્ષમતા નિર્માણ, પ્રોત્સાહનો, મૂલ્યવર્ધન અને માર્કેટિંગ માટે નાણાકીય સહાય પૂરી પાડવામાં આવે છે. ક્લસ્ટર મોડમાં રાસાયણિક મુક્ત જૈવિક ખેતીને પ્રોત્સાહન આપવા માટે આ યોજના વર્ષ 2015-16માં શરૂ કરવામાં આવી હતી.\n\n"
+        ]
+      },
+      {
+        "tag": "financial-assistance-in-paramparagat-krishi-vikas-yojana",
+        "patterns": [
+          "PKVY માં નાણાં પૂરા પાડવામાં આવે છે",
+          "પરમપરાગત કૃષિ વિકાસ યોજનામાં નાણાકીય સહાય",
+          "પરમપરાગત કૃષિ વિકાસ યોજનામાં કેટલા પૈસા આપવામાં આવે છે",
+          "પરમપરાગત કૃષિ વિકાસ યોજનામાં નાણાંની મદદ",
+          "પરમપરાગત કૃષિ વિકાસ યોજના નાણાની રકમનું વિતરણ",
+          "પરમપરાગત કૃષિ વિકાસ યોજનામાં તમામ બાબતો માટે ફાઇનાન્સ આપવામાં આવે છે"
+        ],
+        "responses": [
+          "આ યોજના દ્વારા, ક્લસ્ટર નિર્માણ, ક્ષમતા નિર્માણ, અન્ય પ્રવૃત્તિઓ માટે પ્રોત્સાહનો, મૂલ્યવર્ધન અને માર્કેટિંગ માટે 4 વર્ષ માટે પ્રતિ હેક્ટર ₹ 50000 ની નાણાકીય સહાય પૂરી પાડવામાં આવે છે. આમાંથી 3 વર્ષ માટે હેક્ટર દીઠ ₹ 31000 જૈવિક ખાતરો, જંતુનાશકો, બિયારણો વગેરે જેવી જૈવિક સામગ્રીની ખરીદી માટે આપવામાં આવે છે. વધુમાં ₹8800 પ્રતિ હેક્ટર 3 વર્ષ માટે મૂલ્યવર્ધન અને માર્કેટિંગ માટે આપવામાં આવે છે. ક્લસ્ટરની રચના અને ક્ષમતા નિર્માણ માટે 3 વર્ષ માટે પ્રતિ હેક્ટર ₹ 3000 ની નાણાકીય સહાય પણ આપવામાં આવે છે. એક્સપોઝર મુલાકાતો અને ફિલ્ડ કર્મચારીઓની તાલીમ સહિત. આ રકમ ખેડૂતોના ખાતામાં જમા કરવામાં આવશે. ડાયરેક્ટ બેનિફિટ ટ્રાન્સફર દ્વારા વિતરિત."
+        ]
+      },
+      {
+        "tag": "pradhan-mantri-krishi-sinchayee-yojana",
+        "patterns": [
+          "પ્રધાનમંત્રી કૃષિ સિંચાઈ યોજના",
+          "પ્રધાનમંત્રી કૃષિ સિંચાઈ યોજના",
+          "પીએમકેએસવાય",
+          "સિંચાઈ યોજના",
+          "સિંચાઈ યોજના",
+          "હર ખેત કો પાની",
+          "જલ સંચય",
+          "સિંચાઈ નીતિઓ",
+          "જમીનને ભીની બનાવવા માટે કઈ નીતિ બનાવવામાં આવે છે?",
+          "પાણી ભરાયેલી જમીનની નીતિ",
+          "કઈ નીતિ ખેતી માટે પાણી આપે છે?"
+        ],
+        "responses": [
+          "પ્રધાન મંત્રી કૃષિ સિંચાઈ યોજના (PMKSY) સિંચાઈના કવરેજને વિસ્તારવા અને સ્ત્રોત સર્જન પર અંતિમ ઉકેલ સાથે કેન્દ્રિત રીતે 'હર ખેત કો પાણી' અને પાણીના ઉપયોગની કાર્યક્ષમતા 'પ્રતિ ડ્રોપ પર વધુ પાક' વધારવાના વિઝન સાથે ઘડવામાં આવી છે, વિતરણ, સંચાલન, ક્ષેત્ર એપ્લિકેશન અને વિસ્તરણ પ્રવૃત્તિઓ."
+        ]
+      },
+      {
+        "tag": "activities-in-pradhan-mantri-krishi-sinchayee-yojana",
+        "patterns": [
+          "PMKSY માં પ્રવૃત્તિઓ",
+          "પ્રધાનમંત્રી કૃષિ સિંચાઈ યોજનામાં પ્રવૃત્તિઓ",
+          "પ્રધાનમંત્રી કૃષિ સિંચાઈ યોજનામાં પ્રવૃત્તિઓ",
+          "પ્રધાનમંત્રી કૃષિ સિંચાઈ યોજના કેવી રીતે કામ કરે છે?",
+          "પ્રધાનમંત્રી કૃષિ સિંચાઈ યોજનામાં શું કરવામાં આવે છે?"
+        ],
+        "responses": [
+          "2. નાની સિંચાઈ (સપાટી અને ભૂગર્ભજળ બંને) દ્વારા પાણીના નવા સ્ત્રોતોનું સર્જન, જળ સંસ્થાઓનું સમારકામ, પુનઃસંગ્રહ અને નવીનીકરણ; પરંપરાગત જળ સ્ત્રોતોની વહન ક્ષમતાને મજબૂત બનાવવી, વરસાદી પાણીના સંગ્રહની રચનાઓ (જલ સંચય)\n2. કમાન્ડ એરિયા ડેવલપમેન્ટ, મજબૂતીકરણ અને સ્ત્રોતથી ફાર્મ સુધી વિતરણ નેટવર્કનું નિર્માણ;\n3. ઉપલબ્ધ સ્ત્રોતનો લાભ લેવા માટે જળ સંસ્થાઓ માટે જળ વ્યવસ્થાપન અને વિતરણ પ્રણાલીમાં સુધારો જે તેની સંપૂર્ણ ક્ષમતા (ઓછા લટકતા ફળોમાંથી લાભ મેળવવો) માટે ટેપ કરવામાં આવ્યો નથી. આદેશ વિસ્તારનો ઓછામાં ઓછો 10% સૂક્ષ્મ/ચોકસાઇ સિંચાઇ હેઠળ આવરી લેવાનો છે.\n4. અલગ-અલગ સ્થાનના સ્ત્રોતમાંથી પાણીનું ડાયવર્ઝન જ્યાં તે નજીકના પાણીની અછતવાળા વિસ્તારોમાં પુષ્કળ હોય છે, સિંચાઈ આદેશને ધ્યાનમાં લીધા વિના IWMP અને MGNREGS ઉપરાંતની જરૂરિયાતોને પૂરક કરવા માટે નીચી ઊંચાઈએ જળાશયો/નદીઓમાંથી લિફ્ટ સિંચાઈ.\n5. જલ મંદિર (ગુજરાત) જેવી પરંપરાગત જળ સંગ્રહ પ્રણાલીનું નિર્માણ અને કાયાકલ્પ ખત્રી, કુહલ (H.P.); ઝાબો (નાગાલેન્ડ); એરી, ઓરાનિસ (T.N.); ડોંગ્સ (આસામ); કટાસ, બંધા (ઓડિશા અને M.P.) વગેરે શક્ય સ્થળોએ."
+        ]
+      },
+      {
+        "tag": "soil-health-cards",
+        "patterns": [
+          "સોઇલ હેલ્થ કાર્ડ્સ"
+        ],
+        "responses": [
+          "સોઇલ હેલ્થ કાર્ડ્સ ખેડૂતોને તેમની જમીનના પોષક તત્ત્વોની સ્થિતિની માહિતી આપે છે અને જમીનની તંદુરસ્તી અને તેની ફળદ્રુપતા સુધારવા માટે લાગુ કરવા માટેના પોષક તત્ત્વોની યોગ્ય માત્રા અંગે ભલામણ કરે છે."
+        ]
+      },
+      {
+        "tag": "market-policies",
+        "patterns": [
+          "બજાર આધારિત નીતિઓ",
+          "ખેડૂતો માટે બજાર નીતિઓ",
+          "બજાર નીતિઓ"
+        ],
+        "responses": [
+          "2. ટર્મિનલ માર્કેટ કોમ્પ્લેક્સ\n2. નેશનલ એગ્રીકલ્ચર માર્કેટ (eNAM)"
+        ]
+      },
+      {
+        "tag": "terminal-markets-complex",
+        "patterns": [
+          "ટર્મિનલ માર્કેટ્સ કોમ્પ્લેક્સ",
+          "ટીએમસી"
+        ],
+        "responses": [
+          "ટર્મિનલ માર્કેટ્સ કોમ્પ્લેક્સનું વર્ણન: નાશવંત ઉત્પાદનોની સપ્લાય ચેઇન ટૂંકી કરીને અને તેમની કાર્યક્ષમતા અને ખેડૂતોની આવકમાં વધારો કરીને ખેડૂતોને બજારો સાથે જોડો"
+        ]
+      },
+      {
+        "tag": "national-agriculture-market",
+        "patterns": [
+          "રાષ્ટ્રીય કૃષિ બજાર",
+          "eNAM"
+        ],
+        "responses": [
+          "નેશનલ એગ્રીકલ્ચર માર્કેટ (eNAM) એ સમગ્ર ભારતનું ઈલેક્ટ્રોનિક ટ્રેડિંગ પોર્ટલ છે જે કૃષિ કોમોડિટીઝ માટે એકીકૃત રાષ્ટ્રીય બજાર બનાવવા માટે હાલની APMC મંડીઓનું નેટવર્ક કરે છે."
+        ]
+      },
+      {
+        "tag": "insurance-policies",
+        "patterns": [
+          "વીમા આધારિત પોલિસી",
+          "ખેડૂતો માટે વીમા પોલિસી",
+          "વીમા પૉલિસી",
+          "વીમા સુવિધા"
+        ],
+        "responses": [
+          "2. પ્રધાનમંત્રી પાક વીમા યોજના\n2. ઇફ્કો-ટોક્યો જનરલ ઇન્સ્યોરન્સ કિસાન સુવિધા બીમા\n3. દ્રાક્ષા વીમા (દ્રાક્ષ વીમો)"
+        ]
+      },
+      {
+        "tag": "sustainable-and-organic-farming-policies",
+        "patterns": [
+          "ટકાઉ અને જૈવિક ખેતી નીતિઓ શું છે?",
+          "ટકાઉ નીતિઓ",
+          "ઓર્ગેનિક નીતિઓ",
+          "ટકાઉ/ઓર્ગેનિક ખેતી નીતિઓ"
+        ],
+        "responses": [
+          "2. નેશનલ મિશન ફોર સસ્ટેનેબલ એગ્રીકલ્ચર (NMSA)\n2. પ્રધાનમંત્રી કૃષિ સિંચાઈ યોજના (PMKSY) \n3. પરમપરાગત કૃષિ વિકાસ યોજના (PKVY) \n4. વરસાદ આધારિત વિસ્તાર વિકાસ કાર્યક્રમ (RADP)"
+        ]
+      },
+      {
+        "tag": "national-mission-for-sustainable-agriculture",
+        "patterns": [
+          "ટકાઉ કૃષિ માટે રાષ્ટ્રીય મિશન?",
+          "NMSA"
+        ],
+        "responses": [
+          "નેશનલ મિશન ફોર સસ્ટેનેબલ એગ્રીકલ્ચર (NMSA) - આ યોજના પાક ચક્રના તમામ તબક્કાઓ માટે વીમા કવચ પ્રદાન કરે છે જેમાં ખેડૂતો દ્વારા ઓછા પ્રીમિયમ યોગદાન સાથે નિર્દિષ્ટ કિસ્સાઓમાં લણણી પછીના જોખમોનો સમાવેશ થાય છે. NMSA 'પાણીનો ઉપયોગ કાર્યક્ષમતા', 'પોષક વ્યવસ્થાપન' અને 'આજીવિકા વૈવિધ્યકરણ'ના મુખ્ય પરિમાણોને ક્રમશઃ પર્યાવરણને અનુકૂળ ટેક્નોલોજી તરફ સ્થાનાંતરિત કરીને, ઉર્જા કાર્યક્ષમ સાધનો અપનાવવા, કુદરતી સંસાધનોનું સંરક્ષણ, સંકલિત ખેતી, ટકાઉ વિકાસ માર્ગ અપનાવીને પૂરી કરશે. વગેરે"
+        ]
+      },
+      {
+        "tag": "Rainfed-Area-Development-Programme",
+        "patterns": [
+          "વરસાદ આધારિત વિસ્તાર વિકાસ કાર્યક્રમ",
+          "આરએડીપી"
+        ],
+        "responses": [
+          "ખેત વળતરને મહત્તમ કરવા માટે પ્રવૃત્તિઓનું સંપૂર્ણ પેકેજ આપીને ખેડૂતોના ખાસ કરીને નાના અને સીમાંત ખેડૂતોના જીવનની ગુણવત્તા સુધારવાનો હેતુ હતો. તે યોગ્ય ખેતી પદ્ધતિ આધારિત અભિગમ અપનાવીને ટકાઉ રીતે વરસાદ આધારિત વિસ્તારોની કૃષિ ઉત્પાદકતા વધારવામાં પણ મદદ કરે છે. તે વૈવિધ્યસભર અને સંયુક્ત ખેતી પદ્ધતિ દ્વારા દુષ્કાળ, પૂર અથવા અસમાન વરસાદના વિતરણને કારણે સંભવિત પાક નિષ્ફળતાની પ્રતિકૂળ અસરને ઘટાડે છે."
+        ]
+      },
+      {
+        "tag": "Income-based-policies",
+        "patterns": [
+          "આવક આધારિત નીતિઓ",
+          "ખેતીની આવક પર નીતિઓ"
+        ],
+        "responses": [
+          "2. પીએમ-કિસાન યોજના\n2. પ્રધાનમંત્રી કિસાન માનધન યોજના\n"
+        ]
+      },
+      {
+        "tag": "Income-based-policies",
+        "patterns": [
+          "પીએમ-કિસાન યોજના",
+          "પ્રધાનમંત્રી કિસાન યોજના",
+          "પ્રધાનમંત્રી કિસાન યોજના"
+        ],
+        "responses": [
+          "પ્રધાનમંત્રી કિસાન યોજના: સરકારની પહેલ જેમાં બે હેક્ટરથી ઓછી જમીન ધરાવતા ભારતના 121 મિલિયન નાના અને સીમાંત ખેડૂતોને રૂ. સુધી મળશે. 6,000 પ્રતિ વર્ષ લઘુત્તમ આવક આધાર તરીકે."
+        ]
+      },
+      {
+        "tag": "PM-Kisan-Maandhan-Scheme",
+        "patterns": [
+          "પીએમ કિસાન માનધન યોજના",
+          "માનધન યોજના",
+          "કિસાન માનધન"
+        ],
+        "responses": [
+          "પીએમ કિસાન માનધન યોજના હેઠળ લગભગ 6 કરોડ સીમાંત ખેડૂતોને 60 વર્ષની વયે પહોંચવા પર 3000 રૂપિયા/મહિને લઘુત્તમ પેન્શન મળશે. જેઓ 18 - 40 વર્ષની વય જૂથમાં આવે છે તેઓ આ યોજના માટે અરજી કરવા પાત્ર હશે. આ યોજના હેઠળ, ખેડૂતોને તેમની પ્રવેશની ઉંમરના આધારે, પેન્શન ફંડમાં તેઓ નિવૃત્તિની તારીખ, 60 વર્ષ સુધી પહોંચે ત્યાં સુધી 55 થી 200 રૂપિયાનું માસિક યોગદાન આપવાનું રહેશે. સરકાર ખેડૂતો માટે પેન્શન ફંડમાં સમાન રકમનું સમાન યોગદાન આપશે."
+        ]
+      },
+      {
+        "tag": "Loan-policies",
+        "patterns": [
+          "ક્રેડિટ કાર્ડ નીતિઓ",
+          "લોન નીતિઓ"
+        ],
+        "responses": [
+          "2. કિસાન ક્રેડિટ કાર્ડ (KCC) યોજના"
+        ]
+      },
+      {
+        "tag": "Kisan-Credit-Card",
+        "patterns": [
+          "કિસાન ક્રેડિટ કાર્ડ",
+          "કેસીસી",
+          "સરકાર દ્વારા આપવામાં આવેલ ક્રેડિટ કાર્ડ",
+          "કઈ કંપનીઓ ખેડૂતોને ક્રેડિટ કાર્ડ ઓફર કરે છે?"
+        ],
+        "responses": [
+          "કિસાન ક્રેડિટ કાર્ડ (KCC) યોજના હેઠળ, ખેડૂતોને સાધનો ખરીદવા અને તેમના અન્ય ખર્ચાઓ માટે ટૂંકા ગાળાની લોન આપવામાં આવે છે. SBI, HDFC, ICICI, Axis સહિત KCC ઑફર કરતી ઘણી બેંકો છે."
+        ]
+      },
+      {
+        "tag": "disease-anthracnose",
+        "patterns": [
+          "એન્થ્રેકનોઝ",
+          "એન્થ્રેકનોઝ પર કોઈપણ વસ્તુ",
+          "એન્થ્રેકનોઝનું વર્ણન કરો",
+          "મારે એન્થ્રેકનોઝ વિશે જાણવું છે",
+          "એન્થ્રેકનોઝ શું છે",
+          "Elsinoeampelina શું છે"
+        ],
+        "responses": [
+          "<img src='https://arborjet.com/wp-content/uploads/2020/03/Anthracnose46.jpg'> એન્થ્રેકનોઝ અથવા એલ્સિનોએમ્પેલિના: નાના આછા ભૂરા અથવા ભૂખરા કાળા જખમ કોમળ અંકુર, યુવાન પાંદડા, ફૂલો અને યુવાન બેરી પર વિકસે છે <a href=\"https://www.britannica.com/science/anthracnose\" target=\"_blank\">more detail..</a>"
+        ]
+      },
+      {
+        "tag": "pesticides-disease-anthracnose",
+        "patterns": [
+          "એન્થ્રેકનોઝને કેવી રીતે અટકાવવું",
+          "એન્થ્રેકનોઝ પર સોલ્યુશન",
+          "એન્થ્રેકનોઝને રોકવા માટે જંતુનાશકો",
+          "એન્થ્રેકનોઝ પર કેટલાક જંતુનાશકો"
+        ],
+        "responses": [
+          "2. વેટેબલ સલ્ફર (1.5 કિગ્રા/200 લિટર પાણી)\n2. બેલેટન (1 ગ્રામ/લિટર પાણી)"
+        ]
+      },
+      {
+        "tag": "disease-bacterial-leaf-spot",
+        "patterns": [
+          "બેક્ટેરિયલ લીફ સ્પોટ પર કોઈપણ વસ્તુ",
+          "બેક્ટેરિયલ લીફ સ્પોટ",
+          "બેક્ટેરિયલ લીફ સ્પોટનું વર્ણન કરો",
+          "મારે બેક્ટેરિયલ લીફ સ્પોટ વિશે જાણવું છે",
+          "ઝેન્થોમોનાસ કેમ્પેસ્ટ્રીસ શું છે"
+        ],
+        "responses": [
+          "બેક્ટેરિયલ લીફ સ્પોટ (ઝેન્થોમોનાસ કેમ્પેસ્ટ્રીસ): મુખ્ય અને બાજુની નસો સાથે પાંદડાની નીચેની સપાટી પર મિનિટ પાણીમાં પલાળેલા ફોલ્લીઓ તરીકે લક્ષણો દેખાય છે. પાછળથી આ ફોલ્લીઓ પર ભેગા થાય છે અને મોટા પેચ બનાવે છે. તેનાં રસ ઝરતાં ફળોની પર ભૂરા રંગના કાળા જખમ બને છે, જે પાછળથી નાના અને સુકાઈ જાય છે."
+        ]
+      },
+      {
+        "tag": "disease-downy-mildew",
+        "patterns": [
+          "ડાઉની માઇલ્ડ્યુ પર કોઈપણ વસ્તુ",
+          "ડાઉની માઇલ્ડ્યુનું વર્ણન કરો",
+          "ડાઉની માઇલ્ડ્યુ",
+          "હું ડાઉની માઇલ્ડ્યુ વિશે જાણવા માંગુ છું",
+          "પ્લાઝમોપેરાવિટીકોલા શું છે"
+        ],
+        "responses": [
+          "<img src='https://soybeanresearchinfo.com/wp-content/uploads/2020/03/downy-mildew-on-soybean-Adam-Sisson-P1040070.jpg'>\nછોડ પર પ્લાઝમોપારાવિટીકોલા અથવા ડાઉની માઇલ્ડ્યુ બીજકણ-રચના કરતી હાઇફાઇથી બનેલા સફેદ રંગ દ્વારા ચિહ્નિત થયેલ છે, જે પાવડરી માઇલ્ડ્યુ કરતાં છોડમાં વધુ ઊંડે પ્રવેશ કરે છે. "
+        ]
+      },
+      {
+        "tag": "Symptoms-disease-downy-mildew",
+        "patterns": [
+          "ડાઉની માઇલ્ડ્યુના લક્ષણો",
+          "મારા છોડને ડાઉની માઇલ્ડ્યુથી અસર થાય છે તે કેવી રીતે જાણવું?"
+        ],
+        "responses": [
+          "ડાઉની માઇલ્ડ્યુના પ્રારંભિક લક્ષણો યુવાન પરિપક્વ પાંદડાની ઉપરની સપાટી પર હળવા પીળા ફોલ્લીઓ તરીકે દેખાય છે અને નીચેની બાજુએ અનુરૂપ સફેદ ફોલ્લીઓ હોય છે. પાંદડાના અસરગ્રસ્ત ભાગો ભૂરા થઈ જાય છે અને પ્રકાશસંશ્લેષણની પ્રવૃત્તિમાં ઘટાડો થવાને કારણે ટોળાના વિકાસને સમર્થન આપી શકતા નથી."
+        ]
+      },
+      {
+        "tag": "Pesticides-disease-downy-mildew",
+        "patterns": [
+          "છોડને ડાઉની માઇલ્ડ્યુથી કેવી રીતે અટકાવવું?",
+          "ડાઉની માઇલ્ડ્યુ માટે જંતુનાશકો"
+        ],
+        "responses": [
+          "2. કોપર ઓક્સીક્લોરાઇડ (0.2%)\n2. બોર્ડેક્સ મિશ્રણ(1%)\n3. મેન્કોઝેબ(0.2%)\n4. ફોસેટીલ અલ(0.2%)"
+        ]
+      },
+      {
+        "tag": "disease-powder-mildew",
+        "patterns": [
+          "પાવડરી માઇલ્ડ્યુ પર કંઈપણ",
+          "પાવડર માઇલ્ડ્યુનું વર્ણન કરો",
+          "હું પાવડરી માઇલ્ડ્યુ વિશે જાણવા માંગુ છું",
+          "પાવડરી માઇલ્ડ્યુ",
+          "અનસિનુલા નેકેટર",
+          "પાવડર માઇલ્ડ્યુ શું છે"
+        ],
+        "responses": [
+          "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Oidio_Plantas.jpg/1024px-Oidio_Plantas.jpg'> \nપાવડરી માઇલ્ડ્યુ (અનસિનુલા નેકેટર) એ વિશ્વવ્યાપી ફૂગનો રોગ છે જે પાંદડા, કળીઓ, યુવાન અંકુર, ફળો અને ફૂલોની સપાટી પર સફેદ પાવડરી આવરણનું કારણ બને છે. \n<a href=\"https://en.wikipedia.org/wiki/Powdery_mildew\" target=\"_blank\">more detail..</a>"
+        ]
+      },
+      {
+        "tag": "General_About_You",
+        "patterns": [
+          "તમારા વિશે",
+          "તમારી જાતને વર્ણવો",
+          "શું તમારી પાસે નામ છે?",
+          "શું તમે જાણો છો કે તમે કોણ છો?",
+          "હું તમને કેવી રીતે ગોઠવી શકું?",
+          "તમે કેવી રીતે કાર્ય કરો છો?",
+          "તમારી ઉંમર કેટલી છે?",
+          "તમારા વિષે માહિતી આપો",
+          "ચાલો તમારા વિશે વાત કરીએ",
+          "મને તમારા જીવન વિશે કહો",
+          "મને તમારા વિષે થોડું જણાવો",
+          "તમે કઈ ભાષાઓ બોલો?",
+          "મારે તમારા વિશે શું જાણવું જોઈએ?",
+          "તમારું નામ શું છે?",
+          "તમે ક્યાંથી છો?",
+          "તમારો જન્મ ક્યાં થયો હતો?",
+          "તમે કોણ છો?",
+          "તમે અહી કેમ?"
+        ],
+        "responses": [
+          "હું એક ફાર્માબોટ છું જે તમને તમારી ખેતીની પદ્ધતિઓ અને ઉપાયોની ક્વેરી સંબંધિત સામાન્ય માહિતી ઉકેલવામાં અને આપવામાં મદદ કરે છે"
+        ],
+        "context": "Request generic personal attributes."
+      },
+      {
+        "tag": "General_Agent_Capabilities",
+        "patterns": [
+          "શું તમે કૃપા કરીને મને તે પ્રકારની વસ્તુઓની સૂચિ આપી શકો છો જેમાં તમે મને મદદ કરી શકો છો?",
+          "શું તમે મને કહી શકશો કે તમે મને કઈ સેવાઓમાં મદદ કરી શકશો?",
+          "શું તમારી પાસે એવી વસ્તુઓની સૂચિ છે જેના વિશે હું તમારી સાથે વાત કરી શકું?",
+          "હવે મદદ કરો",
+          "હાય, તમે શું કરો છો?",
+          "હું તમારો ઉપયોગ કેવી રીતે કરી શકું?",
+          "તમે મને કેવી રીતે મદદ કરી શકો?",
+          "તમે મારી સમસ્યાઓ કેવી રીતે હલ કરી શકશો?",
+          "હું તમારો ઉપયોગ કેવી રીતે કરી શકું?",
+          "હું જાણવા માંગુ છું કે તમે મારા માટે કયા પ્રકારના પ્રશ્નોના જવાબ આપી શકો છો.",
+          "મને ખબર નથી કે શું પૂછવું",
+          "શું તમે મને મદદ કરી શકો એવું કંઈ છે?",
+          "તમે કેવા પ્રકારની વસ્તુઓ કરો છો તે વિશે મને કહો?",
+          "મને કંઈક કહો",
+          "મારા વિકલ્પો શું છે?",
+          "મારા કયા વિકલ્પો છે કે જેમાં તમે મદદ કરી શકો?",
+          "તમે શું સાથે વ્યવહાર કરવા સક્ષમ છો?",
+          "તમે શું સમજવા સક્ષમ છો?",
+          "તમે શું સક્ષમ છો?",
+          "તમે શેમાં સારા છો?",
+          "તમારી કુશળતા શું છે?",
+          "તમે શેના માટે ઉપયોગ કરો છો?",
+          "હું તમને શું કરવાનું કહી શકું?",
+          "તમે શું કરો છો?",
+          "તમે શું સંભાળો છો?",
+          "તમે મને બીજું શું મદદ કરી શકો?",
+          "અહીં કઈ વિશેષતાઓ છે?",
+          "આ 5 શું છે?",
+          "તમે કેવા પ્રકારની વસ્તુઓ કરી શકો છો?",
+          "હું વારંવાર પૂછાતા પ્રશ્નો ક્યાં શોધી શકું?"
+        ],
+        "responses": [
+          "તમે મને આનાથી સંબંધિત કોઈપણ શંકા પૂછી શકો છો:\n2. સરકારી નીતિઓ\n2. છોડના રોગો\n3. જંતુનાશકો\n4. જંતુનાશકો/કેમિકલ્સ બ્રાન્ડ્સ"
+        ],
+        "context": "Request capabilities of the bot."
+      },
+      {
+        "tag": "General_Connect_to_Agent",
+        "patterns": [
+          "એજન્ટ મદદ",
+          "એક વાસ્તવિક એજન્ટ, કૃપા કરીને.",
+          "કોલ એજન્ટ",
+          "શું હું કોઈ એજન્ટ સાથે જોડાઈ શકું?",
+          "કૃપા કરીને હું કોઈ માણસ સાથે વાત કરી શકું?",
+          "શું હું જીવંત વ્યક્તિ સાથે વાત કરી શકું?",
+          "શું હું સલાહકાર સાથે વાત કરી શકું?",
+          "શું હું કોઈની સાથે વાત કરી શકું?",
+          "શું હું કોઈની સાથે વાત કરી શકું?",
+          "શું તમે મને એજન્ટ સાથે જોડાવા માટે મદદ કરી શકો છો?",
+          "શું તમે મને કોઈ વાસ્તવિક વ્યક્તિ સાથે જોડી શકો છો?",
+          "મને લાઈવ ઓપરેટર સાથે જોડો.",
+          "સંપર્ક વ્યક્તિ",
+          "શું તમે મને તમારા માસ્ટર પાસે ટ્રાન્સફર કરી શકશો?",
+          "ગ્રાહક સેવા પ્રતિનિધિ કૃપા કરીને.",
+          "રોબોટ નથી જોઈતો?",
+          "હાય તમે મને ટ્રાન્સફર કરી શકો છો",
+          "હું રેકોર્ડ કરેલ મેનૂને કેવી રીતે છોડી શકું અને સીધા જીવંત વ્યક્તિ પાસે જઈ શકું?",
+          "હું બોટ સાથે વાત કરવા માંગતો નથી.",
+          "મારે તારી સાથે વાત કરવી નથી",
+          "મારે એક પ્રતિનિધિ સાથે વાત કરવાની જરૂર છે. હું આવું કેવી રીતે કરીશ?",
+          "શું ત્યાં કોઈ છે જેની સાથે હું ખરેખર વાત કરી શકું?",
+          "મારે એજન્ટ જોઈએ છે",
+          "મારે મેનેજર જોઈએ છે",
+          "મારે કોઈ એજન્ટ મને મદદ કરવા જોઈએ છે",
+          "મારે એક વ્યક્તિ સાથે વાત કરવી છે",
+          "હું માનવ સાથે વાત કરવા માંગુ છું",
+          "હું કોઈની સાથે વાત કરવા માંગુ છું",
+          "માણસની મદદની જરૂર છે",
+          "ઓપરેટર કૃપા કરીને",
+          "કૃપા કરીને મને એજન્ટ પાસે જવા માટે મદદ કરો",
+          "કૃપા કરીને મને જીવંત એજન્ટ સાથે જોડો",
+          "કૃપા કરીને મને માણસ સાથે વાત કરવા દો.",
+          "પ્લીઝ કનેક્ટ કરો",
+          "મને કોઈની પાસે પહોંચાડો",
+          "મને એક એજન્ટ પાસે મોકલો",
+          "સૌથી નજીકનો એજન્ટ ક્યાં છે?",
+          "હા, મને એક વાસ્તવિક વ્યક્તિ પાસે લઈ જાઓ"
+        ],
+        "responses": [
+          "નીચે કેટલાક હેલ્પલાઇન નંબર અને અધિકારીઓની સાઇટ્સ છે: <a href=''>Kisan call center</a> "
+        ],
+        "context": "Request a human agent."
+      },
+      {
+        "tag": "General_Ending",
+        "patterns": [
+          "આવજો",
+          "બાય હવે",
+          "પછી મળીશું",
+          "સ્યા પછી",
+          "આ સત્ર સમાપ્ત કરી રહ્યા છીએ",
+          "અજમાયશ સમાપ્ત કરો",
+          "હવે સમાપ્ત, ગુડ બાય",
+          "ચાલ્યો જા",
+          "દૂર જાઓ",
+          "હવે જઈએ છીએ",
+          "આવજો.",
+          "આવજો",
+          "જતા રહો",
+          "તમારો દિવસ શુભ રહે?",
+          "હે બોટ દૂર જાઓ",
+          "હું જાઉં છું",
+          "હું અહીંથી બહાર છું",
+          "હું આ કરવાનું બંધ કરવા માંગુ છું",
+          "મારે જવું છે",
+          "મે કરી લીધુ",
+          "મે કરી લીધુ",
+          "હું સારો છું આભાર",
+          "હું અત્યારે જઉં છું",
+          "તમારી સાથે ચેટ કરીને આનંદ થયો",
+          "હું છોડવા માંગુ છું",
+          "ચાલો આવજો",
+          "જોઈએ",
+          "પછી મળીશું",
+          "ચુપ થાઓ",
+          "આ કરવાનું બંધ કરો",
+          "મારી સાથે વાત કરવાનું બંધ કરો",
+          "આભાર, બાય!",
+          "ખૂબ ખૂબ આભાર, બાય!",
+          "તમારા સમય માટે આભાર",
+          "આટલું જ છે",
+          "તે બધું છે",
+          "જવાનો સમય"
+        ],
+        "responses": [
+          "તમને જોઈને આનંદ થયો. બાય"
+        ],
+        "context": "End the conversation."
+      },
+      {
+        "tag": "General_Greetings",
+        "patterns": [
+          "શુભ દિવસ",
+          "શુભ સાંજ",
+          "સુપ્રભાત",
+          "તમને જોઈને આનંદ થયો",
+          "શુભેચ્છાઓ",
+          "તમે સારા છો?",
+          "નમસ્તે",
+          "હેલો એજન્ટ",
+          "હેલો, હું અહીં થોડી મદદ શોધી રહ્યો છું",
+          "અરે તમે કેમ છો",
+          "અરે ત્યાં",
+          "હે બધા",
+          "હે જોડિયા",
+          "ઓ, તમે",
+          "હાય સલાહકાર",
+          "હેલો",
+          "વસ્તુઓ કેવી રીતે ચાલે છે?",
+          "કેમ છો આજે?",
+          "તમે કેમ છો?",
+          "કેવુ ચાલે છે?",
+          "કેમ છો?",
+          "ગુડ ઇવન જુઓ",
+          "ઠીક છે મને પાછા લઈ જાઓ",
+          "નવું શું છે?",
+          "શું છે?",
+          "આ કોણ છે?",
+          "તમે ત્યાં"
+        ],
+        "responses": [
+          "હેલો,\n હું તમને કેવી રીતે મદદ કરી શકું?"
+        ],
+        "context": "Greet the bot."
+      },
+      {
+        "tag": "General_Human_or_Bot",
+        "patterns": [
+          "શું હું માણસ સાથે ચેટ કરી રહ્યો છું?",
+          "શું હું બોટ સાથે વાત કરું છું?",
+          "શું હું કોઈ વ્યક્તિ સાથે વાત કરી રહ્યો છું કે પછી કોઈ AI સાથે વાત કરું છું?",
+          "શું હું વોટસન સાથે વાત કરું છું?",
+          "તમે માનવ છો કે બોટ?",
+          "શું તમે રોબોટ છો?",
+          "તમે પણ સાચા છો?",
+          "તમે માનવ છો?",
+          "તમે ખરેખર છો?",
+          "તમે કેવી રીતે સાબિત કરી શકો કે તમે માણસ છો?",
+          "શું આ કોમ્પ્યુટર છે?",
+          "મને કહો, તમે માણસ છો કે ના?"
+        ],
+        "responses": [
+          "હું માણસો દ્વારા બનાવેલ બોટ છું. હું તમને ખેતીમાં મદદ કરવા માટે અહીં છું. હું આપની શું મદદ કરી શકું?"
+        ],
+        "context": "Ask if speaking to a human or a bot."
+      },
+      {
+        "tag": "General_Negative_Feedback",
+        "patterns": [
+          "તને પસંદ નથી?",
+          "દરેક વ્યક્તિ તમને ધિક્કારે છે",
+          "તને ધિક્કાર છે",
+          "હું તમને પસંદ નથી કરતો",
+          "મને આ નફરત છે!",
+          "હું તને નફરત કરુ છુ",
+          "તે હેરાન કરે છે",
+          "મને હેરાન કરવાનું બંધ કરો",
+          "રોબોટ્સ કંટાળાજનક છે",
+          "રોબોટ્સ મૂર્ખ છે",
+          "મૂર્ખ",
+          "તમે આટલા હેરાન કેમ છો?",
+          "તમે મૂર્ખ કેમ છો?",
+          "તમને ભ્રમણા છે",
+          "તમે મારા ચેતા પર છો",
+          "તમે ખૂબ નિરાશાજનક છો",
+          "તમે સ્માર્ટ નથી લાગતા",
+          "તમે ખરેખર નિરાશાજનક છો",
+          "તમે ખરેખર ચિડાઈ રહ્યા છો",
+          "તમે બહુ મૂર્ખ છો"
+        ],
+        "responses": [
+          "નિરાશ જોવા માટે માફ કરશો, તમે મને બીજો પ્રશ્ન પૂછી શકો છો અથવા તમારા પ્રશ્નમાં ફેરફાર કરી શકો છો."
+        ],
+        "context": "Express unfavorable feedback."
+      },
+      {
+        "tag": "General_Positive_Feedback",
+        "patterns": [
+          "તેજસ્વી!",
+          "માની શકાતી નથી કે તમે એટલા સારા છો",
+          "આ કેટલું સરસ છે?",
+          "તમે ત્યાં જે કર્યું તે મને ગમે છે! :)",
+          "હું તમારી સાથે ફરી કામ કરવા આતુર છું! :)",
+          "તમારા કામને પ્રેમ કરો",
+          "બરાબર આભાર",
+          "આભાર",
+          "આ સારું છે",
+          "આ મહાન છે",
+          "આ બહુ સરસ છે",
+          "તમે અદ્ભુત છો",
+          "તમે મહાન છો",
+          "તમે શ્રેેેેષ્ઠ છો",
+          "તમે અદ્ભુત છો",
+          "મારે જે જોઈએ છે તે તમે મને બરાબર આપ્યું!",
+          "તમે પ્રતિભાશાળી છો!",
+          "તમે માણસ",
+          "તમે ખૂબ મદદરૂપ થયા છો :)"
+        ],
+        "responses": [
+          "આભાર "
+        ],
+        "context": "Express positive sentiment or gratitude."
+      },
+      {
+        "tag": "more",
+        "patterns": [
+          "શું હું કંઈક વધુ મેળવી શકું?",
+          "મારે વધુ જાણવાની જરૂર છે",
+          "મારે વધુ વિકલ્પોની જરૂર છે"
+        ],
+        "responses": [
+          "શું હું જાણી શકું કે તમે વધુ શું જાણવા માગો છો?"
+        ],
+        "context": ""
+      },
+          {
+      "tag": "\tPlant Protection\t",
+      "patterns": [
+        "FARMER ASKED ABOUT BLIGHT ATTACK ON ONION ? \t\t  Onion"
+      ],
+      "responses": [
+        "करपा  रोग नियंत्रण एलीयेट 30 ग्रॅम/१५ लिटर पाण्यामध्ये घेऊन फवारणी करावी (फॉसिटील AL ८०% WP)"
+      ]
+    },
+    {
+      "tag": "\tPlant Protection\t",
+      "patterns": [
+        "FARMER ASKED ABOUT BLIGHT ATTACK ON ONION?   Onion"
+      ],
+      "responses": [
+        "कांदा - करपा  रोग- साफ ३० ग्रॅम / १५ लिटर पाण्यामध्ये घेऊन फवारणी करावी ( कार्बेन्डाझिम १२ % + मॅन्कोझेब ६३ % ) "
+      ]
+    },
+    {
+      "tag": "\tPlant Protection\t",
+      "patterns": [
+        "ASKED ABOUT CONTROL OF BLIGHT DISEASE ? Onion"
+      ],
+      "responses": [
+        "--कांदा करपा रोग नियंत्रण :कवच १५ ग्रॅम /१५ लिटर पाण्यामध्ये घेऊन फवारणी करावी .\n२) या पहाटेच्या धुक्यामुळे करपा  रोगाचा प्रादुर्भाव हो शकतो , तरी आपण पहाटे शेणाची धुरी करून द्यावे , त्यामुळे करपा रोगाचे नियंत्रण होते . \n"
+      ]
+    },
+    {
+      "tag": "Varieties",
+      "patterns": [
+        "FARMER ASKED ABOUT VARIETIES OF GROUNDNUT? Groundnut (pea nut/mung phalli)"
+      ],
+      "responses": [
+        "भूईमूग उन्हाळी - सुधारित जाती - एस.बी -१२, टी.अे.जी – २४, जे.एल. २८६ (फुले उनप),\t\nफुले आरएचआरजी – ६०२१, फुले उन्नती.\n"
+      ]
+    },
+    {
+      "tag": "\tPlant Protection\t",
+      "patterns": [
+        "farmer asking about attack of blight on wheat ?  Wheat"
+      ],
+      "responses": [
+        "गहु मर रोग नियंत्रण : बावीस्टीन 30 ग्रॅम/१५ लिटर पाण्यामध्ये घेऊन फवारणी करावी , धन्यावद ."
+      ]
+    },
+    {
+      "tag": "Fertilizer Use and Availability",
+      "patterns": [
+        "FERTILIZER SPRAY ON ONION ? Onion"
+      ],
+      "responses": [
+        "कांदा फुगवणीसाठी -०० ५२ ३४ ६० ग्रॅम + साफ ( कार्बेन्डाझिम १२ % + मॅन्कोझेब ६३ % )  ३० ग्राम /१५ लिटर पाण्यामध्ये घेऊन फवारणी करावी"
+      ]
+    },
+    {
+      "tag": "\tPlant Protection\t",
+      "patterns": [
+        "farmer asked about WEED MANAGEMENT IN ONION crop ? Onion"
+      ],
+      "responses": [
+        "कांदा पिकातील तण नाशक - पुनर्रलागवडी नंतर 21 दिवसांनी  गोल २०  मिली (ओक्सयफ्लुओरफेन  23.5 ec) /१५ लिटर पाण्यातून फवारावे .धन्यवाद "
+      ]
+    },
+    {
+      "tag": "Fertilizer Use and Availability",
+      "patterns": [
+        "FARMER ASKED ABOUT FERTILIZER SPRAY ON ONION ? Onion"
+      ],
+      "responses": [
+        " कांदा फुगवणीसाठी खत मात्रा  -०० :५२ :३४  -८००  ग्रॅम /२००  लिटर पाण्यामध्ये घेऊन १ एकर साठी फवारणी करावी\n"
+      ]
+    },
+    {
+      "tag": "\tPlant Protection\t",
+      "patterns": [
+        "FARMER ASKING ABOUT FERTILIZER SPRAY FOR GROWTH -ONION? Onion"
+      ],
+      "responses": [
+        "कंदा वाढीसाठी - १९ १९ १९ ४० ग्रॅम + मायक्रोला ३० मिली  + एम-४५  ३०  ग्रॅम /१५ लिटर पाण्यामध्ये घेऊन फवारणी करावी\n"
+      ]
+    },
+    {
+      "tag": "Nutrient Management",
+      "patterns": [
+        "FARMER ASKED ABOUT FERTILIZER DOSE FOR ONION ? Onion"
+      ],
+      "responses": [
+        "कांदा पिकासाठी  युरिया १ बॅग + सिंगल सुपर फॉस्फेट १ बॅग + म्युरेट ऑफ पोटॅश  ३० किलो प्रति एकरी टाका. \n"
+      ]
+    },
+    {
+      "tag": "Seeds and Planting Material",
+      "patterns": [
+        "FARMER ASKED ABOUT VARIETIES OF WATERMELON ? Watermelon"
+      ],
+      "responses": [
+        "कलिंगड़ जाती - ऑगस्टा, शुगर किंग, अर्कामाणिक, शुगरबेबी."
+      ]
+    },
+    {
+      "tag": "Fertilizer Use and Availability",
+      "patterns": [
+        "FARMER ASKING ABOUT FERTILIZER SPRAY FOR GROWTH -ONION? Onion"
+      ],
+      "responses": [
+        "कांदा वाढीसाठी - १९ १९ १९ ४० ग्रॅम + मायक्रोला ३० मिली  + एम-45 30 ग्रॅम /१५ लिटर पाण्यामध्ये घेऊन फवारणी करावी\n"
+      ]
+    },
+    {
+      "tag": "Medicinal and Aromatic Plants",
+      "patterns": [
+        "FARMER ASKED ABOUT CULTIVATION OF SAFFRON ? Saffron"
+      ],
+      "responses": [
+        "केशर लागवडीसाठी आपल्या इकडच्या भागात लागवड होत नाही पोषक वातावरण नाही उपलब्ध ."
+      ]
+    },
+    {
+      "tag": "Varieties",
+      "patterns": [
+        "ASKED ABOUT VARIETIES OF BENGAL GRAM ? Bengal Gram (Gram/Chick Pea/Kabuli/Chana)"
+      ],
+      "responses": [
+        "हरभरा -जाती -विजय,  दिग्विजय , विशाल , विकास , जॅकी -९२१८, फुले  जी -१२\n"
+      ]
+    },
+    {
+      "tag": "Fertilizer Use and Availability",
+      "patterns": [
+        "FERTILIZER FOR MAIZE? Maize (Makka)"
+      ],
+      "responses": [
+        "खते -१० २६ २६ २ बॅग्स + युरिया १ बॅग्स /एकर  \n"
+      ]
+    },
+    {
+      "tag": "\tPlant Protection\t",
+      "patterns": [
+        "FARMER ASKED ABOUT ATTACK OF THRIPS , JASSIDS ON ONION ?  Onion"
+      ],
+      "responses": [
+        "कांदा पिकावरील रस शोषणार्‍या कीड नियंत्रणा साठी-अॅक्टरा (थायोमिथोझोम 25%) 5 ग्रॉम/15 लिटर पाण्यामध्ये घेऊन फवारणी करावी\n\n"
+      ]
+    }
+  ]
+
+
+}
+    
+
+
